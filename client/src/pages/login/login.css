@@ -1,0 +1,57 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 
+        rgba(255,255,255,0.5), 
+        rgba(255,255,255,0.5)
+    ),
+    url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/wk51087245-image-kp6c62gn.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=c81cf4964b212550ee0760231ecd339a");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+    color: #666;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+}
+
+.loginForm >label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: snow;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: snow;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+   color: snow;
+}

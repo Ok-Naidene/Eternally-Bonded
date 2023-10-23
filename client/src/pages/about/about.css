@@ -1,0 +1,83 @@
+.about-page {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)),
+      url("https://www.publicdomainpictures.net/pictures/390000/nahled/pastel-purple-seamless-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Lora', serif;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .titleLG {
+    margin-top: 50px;
+    font-size: 70px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #320645, #e9b8ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Lora', serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .titleSml {
+    top: 18%;
+    font-size: 20px;
+    color: rgb(106, 27, 141);
+  }
+  
+  .about-img {
+    width: auto;
+    height: auto;
+  }
+  
+  .about-content {
+    font-family: 'Lora', serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #333;
+  }
+  
+  .memory {
+    font-family: 'Lora', serif;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.5;
+    color: rgb(106, 27, 141);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #f1d6ff;
+    background-color: snow;
+  }
+  
+  .signature {
+    font-family: 'Lora', serif;
+    margin-top: 15px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-right: 15px;
+  }
+  

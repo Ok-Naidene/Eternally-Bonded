@@ -1,0 +1,119 @@
+.body {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+      url("https://images.unsplash.com/photo-1580960551819-ccb4c3ee2744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80");
+    background-size: cover;
+    font-family: 'Lora', serif;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, rgb(0, 9, 87), rgb(192, 209, 255)); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+  }
+  
+  h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #999;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .todo-button {
+    background-color: lightsteelblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-button:hover {
+    background-color: lightskyblue;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    max-height: 400px; 
+    overflow-y: auto; 
+  }
+  
+  .todo-item {
+    background-color: snow;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .todo-item.completed {
+    background-color: snow;
+    text-decoration: line-through;
+  }
+  
+  .button-style,
+  .complete-button-style,
+  .trash-btn {
+    color: snow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 0;
+    padding: 5px 10px;
+  }
+  
+  .complete-button-style {
+    background-color: rgb(224, 157, 157);
+  }
+  
+  .complete-button-style:hover {
+    background-color: rgb(251, 205, 120);
+  }
+  
+  .trash-btn {
+    background-color: lightblue;
+  }
+  
+  .trash-btn:hover {
+    background-color: lightsteelblue;
+  }
+  

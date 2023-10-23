@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 
+        rgba(255,255,255,0.5), 
+        rgba(255,255,255,0.5)
+    ),
+    url("https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2019-09/attachment-pic.jpeg.jpg?itok=Asjufuix");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    color: snow;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm >label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: snow;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}

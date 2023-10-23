@@ -1,0 +1,49 @@
+.header{
+  margin-top: 60px;
+}
+
+.headerTitles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lora', serif;
+}
+
+.headerTitleSm{
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  margin: 0;
+  background: linear-gradient(to bottom, #000000, #FFFFFF); 
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent; 
+}
+
+
+.headerImg{
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+  background-color: #d6d2d2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666; 
+}
