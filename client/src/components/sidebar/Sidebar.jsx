@@ -24,7 +24,7 @@ export default function Sidebar() {
         <span className="sidebarTitle">ABOUT ME</span>
         <img
           className="aboutImg"
-          src="https://scontent.fakl1-4.fna.fbcdn.net/v/t1.18169-9/1918917_1174991669250_584494_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=kDOkGxrlFCIAX_FzKFf&_nc_oc=AQl5CeIDQzF7dUhFzY8Gat85JpevCD89lcgMk7y6PJrSVeO7Ih6lxQZiTlYsn1-IhMzVOVmDGACh6Oo8uTCDR7oe&_nc_ht=scontent.fakl1-4.fna&oh=00_AfBThyYksrGzXnzjLE_9SNRAczyzkhgIH88cLcq0LzioTQ&oe=65395F8E"
+          src="https://scontent.fakl1-3.fna.fbcdn.net/v/t1.18169-9/10391960_1229923282506_3770675_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=4dc865&_nc_ohc=bs25hFO-BIYAX8jaVml&_nc_ht=scontent.fakl1-3.fna&oh=00_AfC8Ksycg7Pt-HIVy0KHD0GXMermzqywuq76TUw_Qdf79A&oe=655E50D6"
           alt=""
         />
         <p>
