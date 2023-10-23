@@ -6,6 +6,8 @@
 2. **Navigate to the Project Directory:**
 3. **Front-End Setup:**
 
+- before you start, message me for the code portion for .env as it's for my mongo db including username and passeword 
+
 - Navigate to the client directory:
   ```
   cd client
